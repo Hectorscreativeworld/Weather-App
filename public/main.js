@@ -35,7 +35,7 @@ const main = () => {
         let node2 = document.createElement('li')
         node2.className = 'humidity'
         // let text2 = document.createTextNode(`Humidity: ${json.main.humidity}`)
-        let text2 = document.createTextNode(`Weather: ${json.weather}`)
+        let text2 = document.createTextNode(`Weather: ${json.weather[0].description}`)
         node2.appendChild(text2)
 
         // creating new nodes and adding to the DOM
