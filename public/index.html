@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Weather Button</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
+
   <body>
-    <h1 class='hello-world'></h1>
+    <div class="box">
+      <section>
+        <ul class="weatherInfo"></ul>
+      </section>
+      <h1>Search the weather</h1>
+      <form class="form1" id="weathersearch">
+        <input
+          id="inner-textbar"
+          type="text"
+          name=""
+          placeholder="City or Zip"
+        />
+        <input id="submit" type="submit" name="" value="Search" />
+      </form>
+    </div>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
